@@ -1,4 +1,4 @@
---DDL
+-- DDL
 
 CREATE DATABASE czbooks_tarde
 GO
@@ -50,6 +50,6 @@ CREATE TABLE livros(
 		,Categoria VARCHAR(50) NOT NULL
 		,Autor VARCHAR(50) NOT NULL
 		,DataPublicacao VARCHAR(20) NOT NULL
-		,Preco DECIMAL(25,0) NOT NULL
+		,Preco DECIMAL(30,0) NOT NULL
 );
 GO
